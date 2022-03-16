@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rathanavoy.plantstore">
+
+    <application
+        android:name=".PlatStoreApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlantStore">
+        <activity
+            android:name="com.rathanavoy.plantstore.feature.home.HomeActivity"
+            android:exported="true"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.rathanavoy.plantstore.feature.storage.LocalFileActivity"
+            android:exported="false"
+            android:label="Local File"
+            android:screenOrientation="userPortrait" />
+
+        <activity
+            android:name="com.rathanavoy.plantstore.feature.store.StoreActivity"
+            android:exported="false"
+            android:label="Store"
+            android:screenOrientation="userPortrait" />
+
+        <activity
+            android:name="com.rathanavoy.plantstore.feature.plant.PlantActivity"
+            android:exported="false"
+            android:label="Store"
+            android:screenOrientation="userPortrait" />
+
+        <activity
+            android:name="com.rathanavoy.plantstore.feature.plant.PlantDetailActivity"
+            android:exported="false"
+            android:label="Plant Name"
+            android:screenOrientation="userPortrait" />
+
+    </application>
+
+</manifest>

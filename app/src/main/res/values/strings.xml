@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Plant Store</string>
+    <string name="action_local_file">Local File</string>
+    <string name="format_currency" translatable="false">$%.2f</string>
+    <string name="pant_description" translatable="false">A very short-stemmed plant growing to 60-100cm (24-39 in) tall, spreading by offset. Has thick and fleshy leaves that hold water to sustain the plant during a drought.</string>
+    <string name="action_add_to_card">Add To Card</string>
+</resources>
