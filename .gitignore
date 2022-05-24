@@ -12,5 +12,6 @@ gradlew
 gradlew.bat
 /.directory
 .idea/**
+.idea/gradle.xml
 prod/**
 gradle.properties
